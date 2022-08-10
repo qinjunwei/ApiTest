@@ -1,0 +1,1 @@
+2022-07-18 19:12:16,256 - root - INFO - [key = '测试key'] - message:测试日志啊 - >>>>>> select * from test

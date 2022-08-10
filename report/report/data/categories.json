@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '请求成功hhhh' in '请求成功!'",
+      "children" : [ {
+        "name" : "test_api[data19]",
+        "uid" : "ae2ec3561db15626",
+        "parentUid" : "7e4836ef6422cc56baa0566f4099b02f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658819176100,
+          "stop" : 1658819176200,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_019', '接口名称': 'app-评论和回复消息列表', '域名': 'https://api-tiyan.sibuqu.com', '接口地址': '/appcommon/message/queryMessageList', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{\"pushType\": 3,\"pageNum\": 1,\"pageSize\": 10}', '检查点': 'msg:请求成功hhhh', '保存数据': '{\"data\":[[\"records\"],[\"classesId\",\"skuId\",\"courseId\",\"resourceId\"]]}', 'section': 'message', '是否执行': 'yes', '请求延迟': ''}" ]
+      } ],
+      "uid" : "7e4836ef6422cc56baa0566f4099b02f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

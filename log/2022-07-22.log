@@ -1,0 +1,16 @@
+
+【2022-07-22 10:30:49 INFO 
+---接口名称-app-评论和回复消息列表
+---响应数据---{'code': 0, 'msg': '请求成功!', 'data': {'records': [], 'total': 0, 'current': 1, 'standardTime': None, 'size': 10}}】
+
+【2022-07-22 10:30:49 ERROR 数据保存报错，请检查用例表中‘保存数据’列中内容。
+保存报错信息--list index out of range
+请求响应数据内容--{'code': 0, 'msg': '请求成功!', 'data': {'records': [], 'total': 0, 'current': 1, 'standardTime': None, 'size': 10}}】
+
+【2022-07-22 10:33:53 INFO 
+---接口名称-app-评论和回复消息列表
+---响应数据---{'code': 0, 'msg': '请求成功!', 'data': {'records': [], 'total': 0, 'current': 1, 'standardTime': None, 'size': 10}}】
+
+【2022-07-22 10:33:53 ERROR 数据保存报错，比对用例表中‘保存数据’内容与响应结果的差别。
+保存报错信息--list index out of range
+请求响应数据内容--{'code': 0, 'msg': '请求成功!', 'data': {'records': [], 'total': 0, 'current': 1, 'standardTime': None, 'size': 10}}】

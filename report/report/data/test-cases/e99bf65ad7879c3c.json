@@ -1,0 +1,56 @@
+{
+  "uid" : "e99bf65ad7879c3c",
+  "name" : "test_api[data1]",
+  "fullName" : "tests.test_case#test_api",
+  "historyId" : "24c850d9e559e37d1dc98b805d7c62ac",
+  "time" : {
+    "start" : 1658819176051,
+    "stop" : 1658819176051,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "host",
+    "value" : "QinJumWei"
+  }, {
+    "name" : "thread",
+    "value" : "13908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'id': 'sbq_001', '接口名称': '登录成功', '域名': 'https://zlzgy-tetralogy-server-test.zlzgy.org.cn', '接口地址': '/v1/server/security/login', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\"}', '请求参数': '{\"loginTyp\": \"PHONE_CODE\",\"password\": \"000000\",\"userSource\": \"3\",\"username\": \"15834281863\"}', '检查点': 'msg:请求成功', '保存数据': '{\"data\":[\"token\",\"id\",\"phone\"]}', 'section': 'user', '是否执行': 'no', '请求延迟': 'yes'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e99bf65ad7879c3c.json",
+  "parameterValues" : [ "{'id': 'sbq_001', '接口名称': '登录成功', '域名': 'https://zlzgy-tetralogy-server-test.zlzgy.org.cn', '接口地址': '/v1/server/security/login', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\"}', '请求参数': '{\"loginTyp\": \"PHONE_CODE\",\"password\": \"000000\",\"userSource\": \"3\",\"username\": \"15834281863\"}', '检查点': 'msg:请求成功', '保存数据': '{\"data\":[\"token\",\"id\",\"phone\"]}', 'section': 'user', '是否执行': 'no', '请求延迟': 'yes'}" ]
+}

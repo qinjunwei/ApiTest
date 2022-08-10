@@ -1,0 +1,56 @@
+{
+  "uid" : "385b9fa37c41ea59",
+  "name" : "test_api[data20]",
+  "fullName" : "tests.test_case#test_api",
+  "historyId" : "badb5c856c8ce655211813d5562e8bda",
+  "time" : {
+    "start" : 1658819176228,
+    "stop" : 1658819176228,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "host",
+    "value" : "QinJumWei"
+  }, {
+    "name" : "thread",
+    "value" : "13908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'id': 'sbq_020', '接口名称': 'app-点赞消息列表', '域名': 'https://api-tiyan.sibuqu.com', '接口地址': '/appcommon/message/queryMessageList', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{\"pushType\": 4,\"pageNum\": 1,\"pageSize\": 10}', '检查点': 'msg:请求成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "385b9fa37c41ea59.json",
+  "parameterValues" : [ "{'id': 'sbq_020', '接口名称': 'app-点赞消息列表', '域名': 'https://api-tiyan.sibuqu.com', '接口地址': '/appcommon/message/queryMessageList', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{\"pushType\": 4,\"pageNum\": 1,\"pageSize\": 10}', '检查点': 'msg:请求成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "b3c0d571fca41a70",
+  "name" : "test_api[data2]",
+  "fullName" : "tests.test_case#test_api",
+  "historyId" : "0c2c460e5a6d25c73e1ca29a72c0b87a",
+  "time" : {
+    "start" : 1658819176053,
+    "stop" : 1658819176054,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "host",
+    "value" : "QinJumWei"
+  }, {
+    "name" : "thread",
+    "value" : "13908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'id': 'sbq_002', '接口名称': '补全信息', '域名': 'https://zlzgy-tetralogy-server-test.zlzgy.org.cn', '接口地址': '/v1/server/api/v1/user/updateUserInfo', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{\"account\": null,\"ageClass\": null,\"ageClassVal\": 11, \"agreeToCall\": 0, \"avatar\": null, \"channel\": 0, \"cityId\": null, \"cityName\": null, \"code\": null, \"company\": \"其他\", \"createTime\": null, \"deviceId\": null, \"deviceType\": 0, \"education\": \"初中及以下\", \"educationVal\": 1, \"email\": null, \"familyStructure\": \"五代其昌\", \"familyStructureVal\": 5, \"gender\": 0, \"groupNo\": 0, \"id\": \"${userId}\",\"token\": \"${token}\",\"phone\": \"${phone}\", \"latitude\": 0, \"learnExpectation\": null, \"learnOwner\": null, \"learnOwnerVal\": 0, \"learnTime\": \"没学过\", \"learnTimeVal\": 1, \"learnTogether\": null, \"learnTogetherVal\": 0, \"longitude\": 0, \"maritalStatus\": false, \"openId\": null, \"password\": null,  \"profess\": \"企业经营者\", \"professVal\": 0, \"provinceId\": null, \"provinceName\": null, \"referrer\": null, \"regionId\": null, \"regionName\": null,\\n \"registerIp\": null, \"switchType\": 0, \"title\": null,  \"tokenExpireSecond\": 0, \"unionId\": null, \"updateTime\":null, \"userEnterprise\":null, \"userEnterpriseVal\": 0,\"userFullName\": \"${randomName}\", \"userIndustry\": null, \"userIndustryVal\": 0, \"userName\": null, \"userSource\": \"1\", \"userType\": 0, \"wechatId\": null}', '检查点': 'msg:请求成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b3c0d571fca41a70.json",
+  "parameterValues" : [ "{'id': 'sbq_002', '接口名称': '补全信息', '域名': 'https://zlzgy-tetralogy-server-test.zlzgy.org.cn', '接口地址': '/v1/server/api/v1/user/updateUserInfo', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{\"account\": null,\"ageClass\": null,\"ageClassVal\": 11, \"agreeToCall\": 0, \"avatar\": null, \"channel\": 0, \"cityId\": null, \"cityName\": null, \"code\": null, \"company\": \"其他\", \"createTime\": null, \"deviceId\": null, \"deviceType\": 0, \"education\": \"初中及以下\", \"educationVal\": 1, \"email\": null, \"familyStructure\": \"五代其昌\", \"familyStructureVal\": 5, \"gender\": 0, \"groupNo\": 0, \"id\": \"${userId}\",\"token\": \"${token}\",\"phone\": \"${phone}\", \"latitude\": 0, \"learnExpectation\": null, \"learnOwner\": null, \"learnOwnerVal\": 0, \"learnTime\": \"没学过\", \"learnTimeVal\": 1, \"learnTogether\": null, \"learnTogetherVal\": 0, \"longitude\": 0, \"maritalStatus\": false, \"openId\": null, \"password\": null,  \"profess\": \"企业经营者\", \"professVal\": 0, \"provinceId\": null, \"provinceName\": null, \"referrer\": null, \"regionId\": null, \"regionName\": null,\\n \"registerIp\": null, \"switchType\": 0, \"title\": null,  \"tokenExpireSecond\": 0, \"unionId\": null, \"updateTime\":null, \"userEnterprise\":null, \"userEnterpriseVal\": 0,\"userFullName\": \"${randomName}\", \"userIndustry\": null, \"userIndustryVal\": 0, \"userName\": null, \"userSource\": \"1\", \"userType\": 0, \"wechatId\": null}', '检查点': 'msg:请求成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+}

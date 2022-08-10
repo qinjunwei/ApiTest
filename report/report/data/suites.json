@@ -1,0 +1,299 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_case",
+      "children" : [ {
+        "name" : "test_api[data0]",
+        "uid" : "8967dd1ec4f81be1",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176049,
+          "stop" : 1658819176049,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_000', '接口名称': '获取验证码', '域名': 'https://zlzgy-tetralogy-server-test.zlzgy.org.cn', '接口地址': '/v1/server/security/getPhoneCode', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\"}', '请求参数': '{\"phone\":\"15834281863\",\"countryCode\":\"+86\",\"testMode\":true,\"type\": \"1\"}', '检查点': 'msg:请求成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data1]",
+        "uid" : "e99bf65ad7879c3c",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176051,
+          "stop" : 1658819176051,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_001', '接口名称': '登录成功', '域名': 'https://zlzgy-tetralogy-server-test.zlzgy.org.cn', '接口地址': '/v1/server/security/login', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\"}', '请求参数': '{\"loginTyp\": \"PHONE_CODE\",\"password\": \"000000\",\"userSource\": \"3\",\"username\": \"15834281863\"}', '检查点': 'msg:请求成功', '保存数据': '{\"data\":[\"token\",\"id\",\"phone\"]}', 'section': 'user', '是否执行': 'no', '请求延迟': 'yes'}" ]
+      }, {
+        "name" : "test_api[data2]",
+        "uid" : "b3c0d571fca41a70",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176053,
+          "stop" : 1658819176054,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_002', '接口名称': '补全信息', '域名': 'https://zlzgy-tetralogy-server-test.zlzgy.org.cn', '接口地址': '/v1/server/api/v1/user/updateUserInfo', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{\"account\": null,\"ageClass\": null,\"ageClassVal\": 11, \"agreeToCall\": 0, \"avatar\": null, \"channel\": 0, \"cityId\": null, \"cityName\": null, \"code\": null, \"company\": \"其他\", \"createTime\": null, \"deviceId\": null, \"deviceType\": 0, \"education\": \"初中及以下\", \"educationVal\": 1, \"email\": null, \"familyStructure\": \"五代其昌\", \"familyStructureVal\": 5, \"gender\": 0, \"groupNo\": 0, \"id\": \"${userId}\",\"token\": \"${token}\",\"phone\": \"${phone}\", \"latitude\": 0, \"learnExpectation\": null, \"learnOwner\": null, \"learnOwnerVal\": 0, \"learnTime\": \"没学过\", \"learnTimeVal\": 1, \"learnTogether\": null, \"learnTogetherVal\": 0, \"longitude\": 0, \"maritalStatus\": false, \"openId\": null, \"password\": null,  \"profess\": \"企业经营者\", \"professVal\": 0, \"provinceId\": null, \"provinceName\": null, \"referrer\": null, \"regionId\": null, \"regionName\": null,\\n \"registerIp\": null, \"switchType\": 0, \"title\": null,  \"tokenExpireSecond\": 0, \"unionId\": null, \"updateTime\":null, \"userEnterprise\":null, \"userEnterpriseVal\": 0,\"userFullName\": \"${randomName}\", \"userIndustry\": null, \"userIndustryVal\": 0, \"userName\": null, \"userSource\": \"1\", \"userType\": 0, \"wechatId\": null}', '检查点': 'msg:请求成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data3]",
+        "uid" : "ca74bda1751999a1",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176056,
+          "stop" : 1658819176057,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_003', '接口名称': '获取个人信息', '域名': 'https://zlzgy-tetralogy-server-test.zlzgy.org.cn', '接口地址': '/v1/server/api/v1/user/getUserInfo', '请求方式': 'get', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{}', '检查点': 'msg:请求成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data4]",
+        "uid" : "66125854c3e95812",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176059,
+          "stop" : 1658819176059,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_004', '接口名称': '联系方式弹框', '域名': 'https://zlzgy-tetralogy-server-test.zlzgy.org.cn', '接口地址': '/v1/server/api/v1/user/getConnectBoxStatus', '请求方式': 'get', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{}', '检查点': 'msg:请求成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data5]",
+        "uid" : "6bd83274183d8066",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176061,
+          "stop" : 1658819176061,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_005', '接口名称': '检查版本信息', '域名': 'https://zlzgy-tetralogy-server-test.zlzgy.org.cn', '接口地址': '/v1/server/version/checkVersion', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{}', '检查点': 'msg:成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data6]",
+        "uid" : "78208011b1c2e778",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176063,
+          "stop" : 1658819176063,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_006', '接口名称': 'banner列表', '域名': 'https://zlzgy-tetralogy-server-test.zlzgy.org.cn', '接口地址': '/v1/server/home/banner', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{}', '检查点': 'msg:请求成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data7]",
+        "uid" : "b302e9d7c8a21200",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176065,
+          "stop" : 1658819176065,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_007', '接口名称': '获取首页弹窗配置', '域名': 'https://zlzgy-tetralogy-server-test.zlzgy.org.cn', '接口地址': '/v1/server/home/getPopRuleConfig', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{\"position\": 0,\"skuId\": 0}', '检查点': 'msg:成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data8]",
+        "uid" : "5d0e649251531ecb",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176067,
+          "stop" : 1658819176068,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_008', '接口名称': '浮框；锦囊，易经小程序,app评论', '域名': 'https://zlzgy-tetralogy-server-test.zlzgy.org.cn', '接口地址': '/v1/server/home/silk/bag', '请求方式': 'get', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{}', '检查点': 'msg:成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data9]",
+        "uid" : "1be73387a3bf0338",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176069,
+          "stop" : 1658819176070,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_009', '接口名称': '修改用户坐标', '域名': 'https://zlzgy-tetralogy-server-test.zlzgy.org.cn', '接口地址': '/v1/server/user/update/coordinate', '请求方式': 'put', '请求头': '{\"content-type\": \"application/json\", \"Authorization\": \"${token}\", \"charset\":\"utf-8\"}', '请求参数': '{\"provinceName\":\"北京市\",\"regionName\":\"朝阳区\",\"latitude\": 40.062148999999998, \"longitude\": 116.446028, \"cityName\": \"北京市\"}', '检查点': 'msg:成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data10]",
+        "uid" : "8c70794f4ced29e3",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176072,
+          "stop" : 1658819176072,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_010', '接口名称': '获取今日课程信息', '域名': 'https://zlzgy-tetralogy-server-test.zlzgy.org.cn', '接口地址': '/v1/order/api/course/todayCourse', '请求方式': 'get', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{}', '检查点': 'msg:成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data11]",
+        "uid" : "58c08176f75a9f74",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176074,
+          "stop" : 1658819176074,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_011', '接口名称': '独立直播列表', '域名': 'https://zlzgy-tetralogy-server-test.zlzgy.org.cn', '接口地址': '/v1/order/api/course/liveTelecastList', '请求方式': 'get', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{}', '检查点': 'msg:请求成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data12]",
+        "uid" : "734722d7ec1a8f19",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176076,
+          "stop" : 1658819176076,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_012', '接口名称': '楼层接口', '域名': 'https://zlzgy-tetralogy-server-test.zlzgy.org.cn', '接口地址': '/v1/order/api/appgoods/goods/sku/catalog', '请求方式': 'get', '请求头': '{\"content-type\": \"application/json\", \"Authorization\": \"${token}\"}', '请求参数': '', '检查点': 'msg:请求成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data13]",
+        "uid" : "d9f9461ebf411810",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176078,
+          "stop" : 1658819176078,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_013', '接口名称': '静默登陆时绑定有赞账号', '域名': 'https://api-tiyan.sibuqu.com', '接口地址': '/api/appapi/v1/yzOrder/saveYzOpenId?yzOpenId=rSCd3ZTi871709109743792128', '请求方式': 'post', '请求头': '{\"content-type\": \"application/x-www-form-urlencoded\",\"charset\": \"utf-8\", \"Authorization\": \"${token}\"}', '请求参数': '', '检查点': 'msg:成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data14]",
+        "uid" : "4edc09a371abeb89",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176080,
+          "stop" : 1658819176090,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_014', '接口名称': '绑定极光推送接口', '域名': 'https://api-tiyan.sibuqu.com', '接口地址': '/api/appapi/v1/message/bandJgPush?alias=test_481741', '请求方式': 'post', '请求头': '{\"content-type\": \"application/x-www-form-urlencoded\",\"charset\": \"utf-8\", \"Authorization\": \"${token}\"}', '请求参数': '', '检查点': 'msg:成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data15]",
+        "uid" : "c9b810aa2d8eee82",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176092,
+          "stop" : 1658819176092,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_015', '接口名称': '右上角未读消息条数查询', '域名': 'https://api-tiyan.sibuqu.com', '接口地址': '/appcommon/message/notReadMessageCount', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{}', '检查点': 'msg:成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data16]",
+        "uid" : "6b89314f80dcaf65",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176094,
+          "stop" : 1658819176094,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_016', '接口名称': 'app-消息中心列表', '域名': 'https://api-tiyan.sibuqu.com', '接口地址': '/appcommon/message/messageCenterList', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{}', '检查点': 'msg:请求成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data17]",
+        "uid" : "147175459bcfda0a",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176096,
+          "stop" : 1658819176096,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_017', '接口名称': 'app-消息中心全部已读', '域名': 'https://api-tiyan.sibuqu.com', '接口地址': '/appcommon/message/alreadyRead', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{\"pushType\": 0}', '检查点': 'msg:请求成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data18]",
+        "uid" : "6b2a2a0f70af58c8",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176098,
+          "stop" : 1658819176098,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_018', '接口名称': 'app-系统消息列表', '域名': 'https://api-tiyan.sibuqu.com', '接口地址': '/appcommon/message/queryMessageList', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{\"pushType\": 1,\"pageNum\": 1,\"pageSize\": 10}', '检查点': 'msg:请求成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data19]",
+        "uid" : "ae2ec3561db15626",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658819176100,
+          "stop" : 1658819176200,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_019', '接口名称': 'app-评论和回复消息列表', '域名': 'https://api-tiyan.sibuqu.com', '接口地址': '/appcommon/message/queryMessageList', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{\"pushType\": 3,\"pageNum\": 1,\"pageSize\": 10}', '检查点': 'msg:请求成功hhhh', '保存数据': '{\"data\":[[\"records\"],[\"classesId\",\"skuId\",\"courseId\",\"resourceId\"]]}', 'section': 'message', '是否执行': 'yes', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data20]",
+        "uid" : "385b9fa37c41ea59",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176228,
+          "stop" : 1658819176228,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_020', '接口名称': 'app-点赞消息列表', '域名': 'https://api-tiyan.sibuqu.com', '接口地址': '/appcommon/message/queryMessageList', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{\"pushType\": 4,\"pageNum\": 1,\"pageSize\": 10}', '检查点': 'msg:请求成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      }, {
+        "name" : "test_api[data21]",
+        "uid" : "cb4c02af0f259485",
+        "parentUid" : "3568ef47ee5ecb01e944e080f33797a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658819176231,
+          "stop" : 1658819176232,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'id': 'sbq_021', '接口名称': 'app-学习提醒消息列表', '域名': 'https://api-tiyan.sibuqu.com', '接口地址': '/appcommon/message/queryMessageList', '请求方式': 'post', '请求头': '{\"content-type\": \"application/json\",\"charset\": \"UTF-8\", \"Authorization\": \"${token}\"}', '请求参数': '{\"pushType\": 5,\"pageNum\": 1,\"pageSize\": 10}', '检查点': 'msg:请求成功', '保存数据': '', 'section': '', '是否执行': 'no', '请求延迟': ''}" ]
+      } ],
+      "uid" : "3568ef47ee5ecb01e944e080f33797a3"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ]
+}
