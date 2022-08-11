@@ -38,7 +38,7 @@ def send_email(content):
     # fujian_msg['Content-Disposition'] = 'attachment;filename="{}"'.format(file_name)
 
     # 装载邮件正文的容器
-    content_msg = MIMEText(content,'plain','utf-8')
+    content_msg = MIMEText(content,'html','utf-8')
     content_msg['Subject'] = '{}{}'.format(datetime.datetime.today().strftime("%Y_%m_%d"),''.join(title))
     content_msg['To'] = ','.join(receivers)
     content_msg['From'] = "{0}<{1}>".format(senderName, sender)
@@ -66,4 +66,4 @@ def new_report():
     return file_new
 
 if __name__ == "__main__":
-    send_email("测试邮件")
+    send_email("测试邮件-报告地址为：http://localhost:63342/InterTest/report/report/index.html")
